@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "bdbd7c29-b8b7-4296-b0c5-dd25862c2e13",
+      "username": "ilyas19",
+      "email": "ilyas19@gmail.com",
+      "pwd": "$2b$10$yRzBjWicWIPbWThNQg.K9.3.dbY50ItyyUq8C3EiDKbv/hLFRjMeq"
+    },
+    {
+      "id": "373f5118-2cd0-4fbe-b45a-53569d9ff9ff",
+      "username": "ilyas20",
+      "email": "ilyas20@gmail.com",
+      "pwd": "$2b$10$uyzFjg12bi8ZUHU28Y7JzucidRq.FLEukPG1eysnbPdf4Jerr5Wta"
+    },
+    {
+      "id": "49241f41-2ced-4a01-8f11-6c2a755f02fc",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "pwd": "$2b$10$Y1LpmSZDxMj2kghnyx4A4utT0q7WkIJkOmz5C2y0xn3V/Cgv5ypHq"
+    }
+  ]
+}

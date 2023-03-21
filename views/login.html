@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="styleUser.css" />
+    <script type="module" src="jsUSer/main.js"></script>
+  </head>
+  <body>
+    <div class="background">
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+    <div id="loginContainer">
+      <form id="loginForm" name="loginForm">
+        <h3>Login Here</h3>
+
+        <label>Username</label>
+        <input type="text" placeholder="Email or Phone" name="username"  />
+
+        <label>Password</label>
+        <input type="password" placeholder="Password" name="password" />
+
+        <button type="submit" id="submitlogin">Log In</button>
+      </form>
+      <div class="social">
+        <button class="go" id="registerBtn">register</button>
+      </div>
+    </div>
+
+    <div id="registerContainer" class="hidden">
+      <form id="registerForm" name="registerForm" >
+        <h3>Register Here</h3>
+
+        <label>Username</label>
+        <input type="text" placeholder="username" name="username" />
+        <label>Password</label>
+        <input type="password" placeholder="Password" name="password" />
+        <label>Renter Password</label>
+        <input type="password" placeholder="Password" name="CheckPassword" />
+
+        <button type="submit" id="submitregister">Register</button>
+      </form>
+      <div class="social">
+        <button class="go" id="loginBtn" type="submit">login</button>
+      </div>
+    </div>
+  </body>
+</html>
